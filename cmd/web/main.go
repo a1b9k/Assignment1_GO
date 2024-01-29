@@ -42,7 +42,7 @@ func main() {
 	addr := flag.String("addr", ":4000", "HTTP network address")
 	// Create a new debug flag with the default value of false.
 	debug := flag.Bool("debug", false, "Enable debug mode")
-	dsn := flag.String("dsn", "web:HQDbino362.@/snippetbox?parseTime=true", "MySQL data source name")
+	dsn := flag.String("dsn", "web:aibek9797925.@/snippetbox?parseTime=true", "MySQL data source name")
 	secret := flag.String("secret", "s6Ndh+pPbnzHbS*+9Pk8qGWhTzbpa@ge", "Secret key")
 	flag.Parse()
 	infoLog := log.New(os.Stdout, "INFO\t", log.Ldate|log.Ltime)
